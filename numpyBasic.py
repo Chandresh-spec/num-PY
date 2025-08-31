@@ -19,10 +19,13 @@ print(arr_2d)
 
 # multi dimensional array
 
-matrix=np.array([[1,2,3],
-                 [4,5,6],
-                 [7,8,9]])
+matrix=np.array([[[1,2,3],
+                 [4,5,6]],
+                 [[7,8,9],
+                  [4,5,6],
+                  ]])
 
+print(np.shape(matrix))
 print(matrix)
 
 #with defalut value

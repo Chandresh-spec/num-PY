@@ -39,7 +39,7 @@ print(arr2)
 
 
 #with one value
-
+# Syntax: np.zeros(shape, dtype=float)
 arr1=np.ones((2,4))
 
 print(arr1)
@@ -53,6 +53,7 @@ arrfull=np.full((2,4),7)
 print(arrfull)
 
 #creating sequence of number in numpy
+# syntax:- np.arange(start, stop, step)
 arrseq=np.arange(1,10,1)
 print(arrseq)
 
@@ -60,6 +61,6 @@ print(arrseq)
 
 
 # creating identity matrix
-
+# np.eye(n, m=None, k=0, dtype=float)
 arreye=np.eye(4)
 print(arreye)

@@ -26,6 +26,9 @@
 import numpy as np
 import time
 
+
+
+
 lst = list(range(1000000))
 arr = np.array(lst)
 
@@ -37,3 +40,28 @@ print("List time:", time.time()-start)
 start = time.time()
 arr = arr * 2
 print("Array time:", time.time()-start)
+
+
+# List time: 0.10057449340820312
+# Array time: 0.0019829273223876953
+
+# 4. Functions and Features
+# 
+# List: Limited built-in functions.
+# 
+# NumPy Array: Rich functions for math, statistics, linear algebra, random numbers,
+
+
+
+
+
+# 
+# 
+# 
+# | Feature        | Python List             | NumPy Array                        |
+# | -------------- | ----------------------- | ---------------------------------- |
+# | Data Type      | Different types allowed | Only one data type                 |
+# | Speed & Memory | Slower, more memory     | Faster, less memory                |
+# | Operations     | Needs loops             | Vectorized (no loops)              |
+# | Functions      | Limited                 | Many (math, stats, linear algebra) |
+# | Dimensionality | 1D (nested for higher)  | Supports nD arrays                 |

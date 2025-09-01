@@ -80,3 +80,9 @@ arrd=np.array([1,2,3,5,4])
 
 
 print(arrd.ndim)
+
+
+
+
+
+

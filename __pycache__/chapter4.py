@@ -14,3 +14,6 @@ arr2=np.array([[1,2,3,4],
 
 
 print(arr2[[1,1,0],[2,0,3]])
+
+
+#Fancy indexing return the copy .but it dont change or modify the real array

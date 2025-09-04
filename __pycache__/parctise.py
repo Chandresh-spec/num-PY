@@ -53,3 +53,18 @@ print(seq)
 iden=np.identity(5)
 
 print(iden)
+
+matrix=np.array([[[1,2,3],
+         [4,4,6]],
+        [ [4,8,9],
+         [8,9,3]]])
+
+print(matrix.shape)
+
+
+
+sizele=np.array([[1,2,3,45],
+                 [4,5,6,55]])
+
+
+print(sizele.size)

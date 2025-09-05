@@ -62,3 +62,17 @@ e=np.dstack((c,d))
 
 
 print(e)
+
+
+
+# 🔑 Summary:
+# 
+# concatenate → join along an existing axis
+# 
+# stack → join along a new axis
+# 
+# hstack → join horizontally (columns)
+# 
+# vstack → join vertically (rows)
+# 
+# dstack → join along depth (3D)

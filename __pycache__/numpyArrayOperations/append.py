@@ -15,7 +15,7 @@ import numpy as np
 a=np.array([[1,2,3,4,5],
             [8,9,6,3,6]])
 
-b=np.append(a,[[7,3,4,8,9],[2,5,8,9,6]],axis=1)
+b=np.append(a,[[7,],[2]],axis=1)
 
 
 print(b)

@@ -77,3 +77,17 @@ b=np.array([2,5,3])
 
 c=a**b
 print(c)
+
+
+fancy=np.array([[1,2,5,8,9,3],[5,8,9,5,6,8]])
+print(fancy)
+res=fancy[[0,0,1],[2,4,2]]
+print(res)
+# 
+# it return the copy not view
+
+
+
+
+#boolean masking
+

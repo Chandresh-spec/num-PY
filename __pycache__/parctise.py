@@ -58,3 +58,22 @@ dimarr=np.array([[[1,2,3],[4,7,9]],[
 
 
 print(dimarr.ndim)
+
+#changing type conversion
+
+arr=np.array([1,2,3,4,5,6])
+
+newarr=arr.astype(str)
+
+
+print(newarr)
+
+
+
+
+#matmatics
+a=np.array([10,20,30])
+b=np.array([2,5,3])
+
+c=a**b
+print(c)

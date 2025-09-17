@@ -124,11 +124,53 @@ print(arr2[store])
 
 
 
-arr3=np.array([[1,2,5,8,9,3],[5,8,9,5,6,8]])
+# arr3=np.array([[1,2,5,8,9,3],[5,8,9,5,6,8]])
 
 
-mask=(arr3>4)
+# mask=(arr3>4)
 
-arr3[mask]=0
-print(arr3)
+# arr3[mask]=0
+# print(arr3)
 
+
+
+# 
+# 
+# arr3=np.array([[1,2,5,8,9,3],[5,8,9,5,6,8]])
+
+
+# flat = arr3.reshape(-1)
+
+# print(flat)
+
+
+
+
+# numpy.insert()
+
+# the insert() function inserts values into an aray at spcified position
+
+# syntax
+
+# numpy.insert(arr,obj,values,axis=None)
+
+
+
+# 
+# arr=np.array([[1,2,3],[8,6,3]])
+# 
+# new_arr=np.insert(arr,1,99)
+# print(new_arr)
+
+
+
+
+
+arr=np.array([[1,2,3,4],
+              [4,5,6,7],
+              [8,9,10,11]])
+
+
+newarr=np.insert(arr,0,[10,20,30],axis=1)
+
+print(newarr)

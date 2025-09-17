@@ -1,70 +1,60 @@
 import numpy as np
 
-arr=np.array([1,2,3,4])
 
-
+# arr=np.full((3,3),7)
+#
+arr=np.arange(1,9,3)
 
 print(arr)
 
 
 
-arr2d=np.array([[1,2,3],
-                [2,4,6]])
 
+#identity matrixs
 
-print(arr2d)
+identity_mat=np.eye(4,dtype=float)
 
-
-matrix=np.array([[[1,2,3],
-         [4,4,6]],
-        [ [4,8,9],
-         [8,9,3]]])
-
-
-print(matrix)
+print(identity_mat)
 
 
 
-default0=np.zeros((2,6))
 
-print(default0)
+#array checking
 
+arrshape=np.array([[1,2,3,1],[7,8,9,6]])
 
-
-default1=np.ones((3,3))
-print(default1)
+print(arrshape.shape)
 
 
 
-defall=np.full((2,3),10)
-
-print(defall)
 
 
+#size
 
-#creating sequence of number in numpy
+# it return the total number of element in the array
+
+arrsize=np.array([[1,2,3],[8,9,6]])
+
+print(arrsize.size)
 
 
-seq=np.arange(2,10)
+# dtype()
+# it return the type of array
 
-print(seq)
+n=np.array([1.2,5.3,1.8])
 
-
-iden=np.identity(5)
-
-print(iden)
-
-matrix=np.array([[[1,2,3],
-         [4,4,6]],
-        [ [4,8,9],
-         [8,9,3]]])
-
-print(matrix.shape)
+print(n.dtype)
 
 
 
-sizele=np.array([[1,2,3,45],
-                 [4,5,6,55]])
 
 
-print(sizele.size)
+#ndim it return the number of dimesion in the array
+# it return 1d array 2d array and multi dimensional array
+
+
+dimarr=np.array([[[1,2,3],[4,7,9]],[
+                 [7,8,9],[5,6,3]]])
+
+
+print(dimarr.ndim)
